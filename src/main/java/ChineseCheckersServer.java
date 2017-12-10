@@ -67,7 +67,6 @@ public class ChineseCheckersServer implements ActionListener {
 
 
 
-    @Override
     public void actionPerformed(ActionEvent e) {
 
         source = e.getSource();
