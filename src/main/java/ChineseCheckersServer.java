@@ -161,6 +161,7 @@ public class ChineseCheckersServer implements ActionListener {
 
                 Game.Player player1 = game.new Player(listener.accept(), '1');
                 server.players[0] = player1;
+                int j;
 
                 Game.Player player2 = game.new Player(listener.accept(), '2');
                 server.players[1] = player2;
