@@ -30,7 +30,7 @@ public class ChineseCheckersClient {
     private Socket socket;
     private BufferedReader in;
     private PrintWriter out;
-
+    private int i;
 
     public ChineseCheckersClient(String serverAddress) throws Exception {
 
