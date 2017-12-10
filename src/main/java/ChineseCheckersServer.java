@@ -15,6 +15,7 @@ public class ChineseCheckersServer implements ActionListener {
 
     static ChineseCheckersServer server;
     static Game game;
+    int i;
     static ServerSocket listener;
     private JFrame frame = new JFrame("Chinese Checkers");
     JPanel Panel = new JPanel();
